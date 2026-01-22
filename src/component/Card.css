@@ -1,0 +1,58 @@
+.card {
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.popular-tag {
+  background-color: #f8d24b;
+  font-size: 10px;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.soldout {
+  color: #ed735d;
+}
+.name {
+  font-size: 14px;
+}
+.price {
+  font-size: 12px;
+  background-color: #bee3cc;
+  color: #1b1d1f;
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.votes {
+  color: #4d5562;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating img {
+  width: 16px;
+  height: 16px;
+}

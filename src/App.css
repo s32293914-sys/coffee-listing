@@ -1,0 +1,61 @@
+body {
+  background: #111315;
+  margin: 0;
+  padding: 20px;
+  background-image: url("/images/bg-cafe-lg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: "DM Sans", sans-serif;
+}
+
+.description {
+  background-image: url("/images/vector.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: inherit;
+}
+
+.description h1 {
+  color: #fef7ee;
+  font-size: 32px;
+  text-align: center;
+}
+.description p {
+  font-size: 16px;
+  color: #fef7ee;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.app {
+  min-height: 100vh;
+
+  padding-top: 100px;
+}
+.container {
+  background-color: #1a1a2e;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.filter-buttons {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+.filter-buttons button.active{
+  background-color: #6F757C;
+}
