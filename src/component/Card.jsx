@@ -6,10 +6,10 @@ export default function Card({ coffee }) {
   return (
     <div className="card">
       {coffee.popular && <span className="popular-tag">popular</span>}
-      <img src={coffee.image} alt={coffee.name} />
+      <img src={coffee.image} alt={coffee.name} loading="lazy" />
       <div className="card-header">
-        <h3 className="name">{coffee.name}</h3>
-        <h3 className="price">{coffee.price}</h3>
+        <h2 className="name">{coffee.name}</h2>
+        <span className="price">{coffee.price}</span>
       </div>{" "}
       <div className="rating">
         {coffee.rating ? (

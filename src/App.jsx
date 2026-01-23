@@ -6,7 +6,7 @@ import CoffeeList from "./component/CoffeeList";
 function App() {
   const [filter, setFilter] = useState("all");
   return (
-    <div className="app">
+    <main className="app">
       <div className="container">
         <div className="description">
           <h1>Our Collection</h1>
@@ -35,7 +35,7 @@ function App() {
         </div>
         <CoffeeList filter={filter} />
       </div>
-    </div>
+    </main>
   );
 }
 
